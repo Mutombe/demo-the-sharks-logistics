@@ -169,7 +169,7 @@ const siteData = {
   reviews: {
     heroTitle: [{ text: "What " }, { text: "Clients Say", highlight: true }],
     heroSubtitle: "Real feedback from businesses and individuals who trust The Sharks Logistics for their delivery needs.",
-    ratingBreakdown: [{ stars: 5, count: 28 }, { stars: 4, count: 10 }, { stars: 3, count: 4 }, { stars: 2, count: 0 }, { stars: 1, count: 0 }],
+    ratingBreakdown: { 5: 28, 4: 10, 3: 4, 2: 0, 1: 0 },
     items: [
       { name: "Tatenda Moyo", role: "Founder, ShopZim Online", text: "Sharks Logistics handles all our e-commerce deliveries. Their Shopify integration is seamless and our customers love the real-time tracking. Delivery complaints dropped 90% since we switched.", rating: 5, date: "1 month ago", project: "E-Commerce Fulfilment" },
       { name: "Rudo Chirwa", role: "Pharmacy Manager, MedExpress", text: "Same-day pharmaceutical delivery across Harare. Sharks understands the urgency of medical deliveries. Temperature-sensitive packages arrive on time, every time. Lives depend on it.", rating: 5, date: "2 months ago", project: "Pharmaceutical Delivery" },
